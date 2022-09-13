@@ -1,9 +1,17 @@
-.body {
+body {
     background-image: url(./chair-hoochee.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-color:#a8c56b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    border-left: 5px #AFD2C1 solid;
+}
+
+h4{
+    border:#AFD2C1 5px solid;
 }
 
 .nav {
@@ -32,6 +40,7 @@
     color: #AFD2C1;
     width: 75%;
     background-color: #738201;
+    border: #AFD2C1 8px  solid;
 }
 
 .article {
