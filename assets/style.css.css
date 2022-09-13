@@ -1,27 +1,22 @@
-* {
-    /*properties for everything here*/
-}
-
 .body {
     background-image: url(./chair-hoochee.jpg);
+    background-position: center;
     background-repeat: no-repeat;
-    position:relative;
-    justify-content: space-around;
     background-color:#a8c56b;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navButton {
+.nav {
    background-color: #738201;
    border:3px #AFD2C1 solid;
    padding: 5px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
    color:#E0ECD4; 
    display:flex;
    justify-content: flex-end;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navButton a:hover {
+.nav a:hover {
     background-color: #a8c56b;
     color:#F4F9D2;
 }
@@ -33,22 +28,24 @@
 }
 
 .title {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+    color: #AFD2C1;
+    width: 75%;
     background-color: #738201;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #afd2c1;
-    
 }
 
 .article {
     background-color: #738201;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#AFD2C1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 45%;
 }
 
 .footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#AFD2C1;
     font-size: smaller;
+    display:flex;
     justify-content: center;
     background-color: #738201;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
