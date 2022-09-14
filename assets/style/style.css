@@ -1,9 +1,22 @@
 body {
-    background-image: url(/PortfolioCod3burrito/Portfoliocod3burrito/assets/chair-hoochee.jpg);
+    background-image: url(/assets/chair-hoochee.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-color:#a8c56b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.selfie{
+    object-fit: contain;
+    width:300px;
+    height:auto;
+    padding: right 10%;
+}
+
+.example{
+    object-fit: contain;
+    width:auto;
+    height: 150px;
 }
 
 p {
